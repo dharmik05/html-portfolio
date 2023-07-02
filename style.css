@@ -1,0 +1,44 @@
+h1 {
+    color: #212529;
+    height: auto;
+}
+
+span {
+    color: #5f9ed8; 
+}
+
+.background {
+    background-color: #cedef8;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    max-height: 200px;
+    max-width: 200px;
+    border: 3px solid;
+    border-color: #535658;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-container > .container {
+    align-self: center;
+}
+
+.flex-container > p.link {
+    text-align: center;
+}
+
+.flex-container > hr {
+    width: 200px;
+    size: 3px;
+    border-top: 3px solid rgb(255, 94, 0);
+}
+
+.background > .flex-container > .container > .link {
+    display: inline;
+}
